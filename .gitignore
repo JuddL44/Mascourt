@@ -1,0 +1,82 @@
+###################################
+# GLOBAL
+###################################
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Node + .NET global
+node_modules/
+dist/
+build/
+temp/
+npm-debug.log*
+yarn-error.log*
+.env
+
+###################################
+# ANGULAR (client)
+###################################
+/client/node_modules/
+/client/dist/
+/client/.angular/
+/client/.vscode/
+/client/package-lock.json
+/client/.env
+
+# Angular cache
+/client/.angular/cache/
+
+###################################
+# DOTNET (server)
+###################################
+/server/bin/
+/server/obj/
+/server/.vs/
+/server/*.user
+/server/*.suo
+/server/*.cache
+/server/*.log
+/server/.vscode/
+/server/appsettings.Development.json
+
+# ASP.NET HTTPS dev certs
+/server/Properties/launchSettings.json
+
+###################################
+# Visual Studio / C#
+###################################
+*.user
+*.suo
+*.cache
+*.log
+*.pdb
+*.mdb
+*.dbmdl
+*.bak
+*.backup
+*.tmp
+*.swp
+*.sln.docstates
+
+# NuGet packages
+*.nupkg
+**/packages/*
+!**/packages/build/
+*.snupkg
+
+###################################
+# Logs
+###################################
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+###################################
+# Tools
+###################################
+/.vscode/
+/.idea/
+/*.code-workspace
